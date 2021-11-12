@@ -1,0 +1,182 @@
+THEME Documents
+
+"breakpoint":['768px','992px','1230px','1439px'],
+'breakpoint_key':['sm','md','lg','xl'],
+"breakpoint_wrapper":['750px','970px','1200px','1400px'],
+"mobile_navigation_point":991,
+"mobile_navigation_key":"md",
+
+Fonts
+- primary
+- secondary
+
+typography
+- H1
+ - 30,40,50,60
+
+colors
+- primary
+- secondary
+- white
+- black
+
+
+/* Uitily Classis */
+====================================================================================
+Fonts - font:{{value}}
+Responsive Brakpoint available: NO
+
+FONT
+- ['primary','secondary']
+====================================================================================
+
+====================================================================================
+TYPOGRAPHY - .h1,.h2
+Responsive Brakpoint available: NO
+
+this class also responsive brakepoint but dont their key. you can use directly
+====================================================================================
+
+====================================================================================
+COLORS - colors:{{value}}
+Responsive Brakpoint available: NO
+
+FONT
+- ['primary','secondary']
+====================================================================================
+
+====================================================================================
+PADDING - p:{{value}}
+Responsive Brakpoint available: YES
+
+p:{{value}}
+- it's apply all direction
+
+px:{{value}}
+- it's apply in X cordinats
+
+py:{{value}}
+- it's apply in Y cordinats
+
+pt:{{value}}
+- it's apply only in top
+
+pb:{{value}}
+- it's apply only in bottom
+====================================================================================
+
+====================================================================================
+MARGIN - m:{{value}}
+Responsive Brakpoint available: YES
+
+m:{{value}}
+- it's apply all direction
+
+mx:{{value}}
+- it's apply in X cordinats
+
+my:{{value}}
+- it's apply in Y cordinats
+
+mt:{{value}}
+- it's apply only in top
+
+mb:{{value}}
+- it's apply only in bottom
+====================================================================================
+
+====================================================================================
+DISPALY - display:{{value}}
+Responsive Brakpoint available: YES
+
+display
+- ['block','inline-block','flex','inline-flex','none','grid']
+====================================================================================
+
+====================================================================================
+ALIGN-ITEMS - align-items:{{value}}
+Responsive Brakpoint available: YES
+
+align-items
+- ['center','flex-start','flex-end','normal']
+====================================================================================
+
+====================================================================================
+JUSTIY CONTENT - justify-content:{{value}}
+Responsive Brakpoint available: YES
+
+justify-content
+- ['center','flex-end','flex-start','space-around','space-between']
+====================================================================================
+
+====================================================================================
+TEXT ALIGN - text-align:{{value}}
+Responsive Brakpoint available: YES
+
+text-align
+- ['left','right','center']
+====================================================================================
+
+====================================================================================
+FLEX DIRECTION - flex-direction:{{value}}
+Responsive Brakpoint available: YES
+
+flex-direction
+- ['column','column-reverse','row','row-reverse']
+====================================================================================
+
+====================================================================================
+GAP - gap:{{value}}
+Responsive Brakpoint available: YES
+
+gap
+- it's apply all direction
+
+gap-y
+- it's apply in Y cordinates
+
+gap-x
+- it's apply in X cordinates
+====================================================================================
+
+====================================================================================
+WIDTH - w:{{value}}
+Responsive Brakpoint available: YES
+
+w
+- it's has px value
+
+ww
+- it's has % value
+
+wmax
+- it's have px value but it's value with max
+
+====================================================================================
+
+====================================================================================
+HEIGHT - h:{{value}}
+Responsive Brakpoint available: YES
+
+h
+- it's has px value
+
+hmax
+- it's has px value but it's value with max
+====================================================================================
+
+
+
+
+
+
+
+
+
+{% dnd_section full_width:true %}
+  {% dnd_module path="", label="" %}{% end_dnd_module %}
+{% end_dnd_section %}
+    
+{% dnd_area 'dnd_area' class='body-container body-container--home', label='Main section' %}
+
+{% end_dnd_area %}
